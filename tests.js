@@ -1,4 +1,5 @@
-const { describe, it } = require('mocha')
+const mocha = require('mocha')
+mocha.setup
 const { expect } = require('chai')
 const validatePassword = require('./index')
 
